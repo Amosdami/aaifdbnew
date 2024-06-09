@@ -6,5 +6,5 @@ class handler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type','text/plain')
         self.end_headers()
-        self.wfile.write('Soft drinks, Coffees, teas, bear, ales'.encode('utf-8'))
+        self.wfile.write('Sweet and savoury sauces, spread, relishes and seasonings'.encode('utf-8'))
         return
